@@ -1,5 +1,9 @@
 ﻿var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
+
+//Generic Setup Stuff
+app.use(bodyParser.json());
 
 //Routers
 app.use('/', require('./index/index.router.js'));

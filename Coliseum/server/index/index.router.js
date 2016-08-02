@@ -1,8 +1,9 @@
 ﻿var express = require('express');
+var path = require('path');
 var router = express.Router();
 
 router.get('/', function (req, res) {
-  res.json('YAY, PLACEHOLDER!');
+  res.sendFile(path.join(__dirname, '../../client/index/index.html'));
 });
 
 module.exports = router;

@@ -30,13 +30,14 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".bowerrc" />
+    <Content Include="client\index\index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="client\" />
     <Folder Include="client\index\" />
-    <Folder Include="public\" />
     <Folder Include="server\" />
     <Folder Include="server\index\" />
   </ItemGroup>
