@@ -1,0 +1,10 @@
+{
+  "name": "coliseum",
+  "version": "0.0.0",
+  "description": "Coliseum",
+  "main": "app.js",
+  "author": {
+    "name": "GSpen_000",
+    "email": ""
+  }
+}
