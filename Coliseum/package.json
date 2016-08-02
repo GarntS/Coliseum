@@ -6,5 +6,9 @@
   "author": {
     "name": "GSpen_000",
     "email": ""
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.14.1"
   }
 }
